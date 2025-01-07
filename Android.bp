@@ -17806,6 +17806,9 @@ android_app_import {
     name: "QtiTelephonyService",
     owner: "xiaomi",
     apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
+    required: [
+        "QtiTelephonyCompat",
+    ],
     certificate: "platform",
     dex_preopt: {
         enabled: false,
@@ -17841,6 +17844,9 @@ android_app_import {
     name: "ims",
     owner: "xiaomi",
     apk: "proprietary/system_ext/priv-app/ims/ims.apk",
+    required: [
+        "QtiTelephonyCompat",
+    ],
     certificate: "platform",
     dex_preopt: {
         enabled: false,
