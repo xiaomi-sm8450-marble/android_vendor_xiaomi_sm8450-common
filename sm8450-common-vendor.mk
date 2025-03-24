@@ -244,7 +244,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
     com.dsi.ant@1.0-impl \
-    gyro_fusion_interface \
     vendor.qti.esepowermanager@1.1-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
@@ -289,20 +288,10 @@ PRODUCT_PACKAGES += \
     libQTEEConnector_vendor \
     libQcelp13SwCodec \
     libQtiRilLoadable \
-    lib_bt_aptx \
-    lib_bt_ble \
-    lib_bt_bundle \
-    lib_bt_lhdc \
     libadm \
     libadsp_default_listener \
     libadsprpc \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
-    libats \
     libaudio_log_utils \
-    libaudiocloudctrl \
-    libaudioroute_ext \
     libbacklight-calib \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
@@ -373,8 +362,6 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
-    liblx-ar_util \
-    liblx-osal \
     libmasc \
     libmcs \
     libmdmdetect \
@@ -383,7 +370,6 @@ PRODUCT_PACKAGES += \
     libmemutils \
     libminkdescriptor \
     libminksocket_vendor \
-    libmisight \
     libmlipay \
     libmlipay@1.1 \
     libmm-hdcpmgr \
@@ -481,7 +467,6 @@ PRODUCT_PACKAGES += \
     libqtikeymint \
     librcc \
     librcmask \
-    libresampler \
     libril-db \
     libril-legacy \
     libril-qc-ltedirectdisc \
@@ -559,7 +544,6 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libwvkeybox \
     libxiaomi_qcril \
-    libxlog \
     libxml \
     libxtadapter \
     ls_nq_client \
@@ -579,7 +563,6 @@ PRODUCT_PACKAGES += \
     sensors.touch.detect \
     sensors.ultrasoundproximity \
     libasphere \
-    libshoebox \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
@@ -608,7 +591,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss-V3-ndk \
     vendor.qti.gnss-V5-ndk \
     vendor.qti.gnss-service \
-    vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
