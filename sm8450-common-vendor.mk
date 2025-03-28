@@ -226,7 +226,6 @@ PRODUCT_PACKAGES += \
     libq3dtools_esx \
     libCB \
     libOpenCL \
-    libOpenCL_adreno \
     libadreno_app_profiles \
     libadreno_utils \
     libgpudataproducer \
