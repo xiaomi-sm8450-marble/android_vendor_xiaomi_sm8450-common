@@ -20018,6 +20018,7 @@ cc_prebuilt_binary {
                 "proprietary/system_ext/bin/wfdservice64",
             ],
             shared_libs: [
+                "libwfdservice_shim_v1",
                 "liblog",
                 "libutils",
                 "libcutils",
