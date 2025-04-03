@@ -91,7 +91,7 @@
             // override chroma qp offset value for 8 and 10 bits:
             // default: 0
             // allowed override value: -12
-            "enc_chroma_qp_offset_10_bit": -12,
+            "enc_chroma_qp_offset_10_bit": 0,
             "enc_chroma_qp_offset_8_bit": 0,
             //encoder bitrate savings control (CAC) - content adaptive coding feature
             // it is bitmask.
