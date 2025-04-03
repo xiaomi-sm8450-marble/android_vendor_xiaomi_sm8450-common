@@ -282,7 +282,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.soter@1.0-impl \
     vendor.qti.hardware.wifidisplaysession@1.0-impl \
     vulkan.adreno \
-    jcos_nq_client \
+    jcos_nq_client-v1 \
     lib-imscommon \
     lib-imsdpl \
     lib-imsqimf \
@@ -568,7 +568,7 @@ PRODUCT_PACKAGES += \
     libxiaomi_qcril \
     libxml \
     libxtadapter \
-    ls_nq_client \
+    ls_nq_client-v1 \
     libwvdrmengine \
     qcrilInterfaces \
     qcrilMarshal \
@@ -580,7 +580,7 @@ PRODUCT_PACKAGES += \
     qtiPeripheralMgr \
     qtiril-utils \
     qtiwakelock \
-    se_nq_extn_client \
+    se_nq_extn_client-v1 \
     sensors.ssc \
     sensors.touch.detect \
     sensors.ultrasoundproximity \

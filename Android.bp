@@ -1898,7 +1898,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "jcos_nq_client",
+    name: "jcos_nq_client-v1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1906,7 +1906,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/jcos_nq_client.so",
+                "proprietary/vendor/lib64/jcos_nq_client-v1.so",
             ],
             shared_libs: [
                 "libbase",
@@ -10630,7 +10630,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "ls_nq_client",
+    name: "ls_nq_client-v1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -10638,7 +10638,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/ls_nq_client.so",
+                "proprietary/vendor/lib64/ls_nq_client-v1.so",
             ],
             shared_libs: [
                 "libbase",
@@ -10647,7 +10647,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libchrome",
                 "libhidlbase",
-                "se_nq_extn_client",
+                "se_nq_extn_client-v1",
                 "libc++",
                 "libc",
                 "libm",
@@ -10987,7 +10987,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "se_nq_extn_client",
+    name: "se_nq_extn_client-v1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -10995,7 +10995,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/se_nq_extn_client.so",
+                "proprietary/vendor/lib64/se_nq_extn_client-v1.so",
             ],
             shared_libs: [
                 "libbase",
@@ -18299,9 +18299,9 @@ cc_prebuilt_binary {
                 "libbase",
                 "libutils",
                 "libhardware",
-                "se_nq_extn_client",
-                "ls_nq_client",
-                "jcos_nq_client",
+                "se_nq_extn_client-v1",
+                "ls_nq_client-v1",
+                "jcos_nq_client-v1",
                 "libhidlbase",
                 "android.hardware.secure_element@1.0",
                 "android.hardware.secure_element@1.1",
