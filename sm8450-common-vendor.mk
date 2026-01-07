@@ -265,6 +265,7 @@ PRODUCT_PACKAGES += \
     libq3dtools_esx \
     libCB \
     libOpenCL \
+    libadreno_app_profiles \
     libadreno_utils \
     libgpudataproducer \
     libgsl \
